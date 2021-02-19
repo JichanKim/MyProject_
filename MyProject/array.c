@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main_array(void)
 {
 	//int subway_1 = 30;
 	//int subway_2 = 40;
@@ -52,14 +52,43 @@ int main(void)
 	//{
 	//	printf("%c\n", str[i]);
 	//}
-
-	char kor[] = "떙떙떙떙";
-	printf("%s\n", kor);
-	printf("%d\n", sizeof(kor));
+	
+	//char kor[] = "떙떙떙떙";
+	//printf("%s\n", kor);
+	//printf("%d\n", sizeof(kor));
 	//영어 1글자 : 1byte
 	//한글 1글자 : 2byte 
 
+	//char c_array[10] = { 'c','o','d','i','n','g' };
+	//printf("%s\n", c_array);
 
+	//for (int i = 0; i < sizeof(c_array); i++)
+	//{
+	//	printf("%c\n", c_array[i]);
+	//}
+	//char name[256];
+	//printf("이름을 입력하세요 : ");
+	//scanf_s("%s", name, sizeof(name));
+	//printf("%s\n", name);
+	//printf("%c\n", 'a');
+	//printf("%d\n", 'a');
+
+	//printf("%c\n", 'b');
+	//printf("%d\n", 'b');
+
+	//printf("%c\n", 'A');
+	//printf("%d\n", 'A');
+
+	//printf("%c\n", '\0');
+	//printf("%d\n", '\0');
+
+	//printf("%c\n", '0');
+	//printf("%d\n", '0');
+	// 0~127 사이의 아스키코드 정수값에 해당하는 문자확인
+	//for (int i = 0; i < 128; i++)
+	//{
+	//	printf("아스키코드 정수 %d : %c\n",i,i);
+	//}
 
 	return 0;
 }

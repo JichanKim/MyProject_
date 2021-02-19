@@ -140,11 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="array.c" />
+    <ClCompile Include="array_project.c" />
     <ClCompile Include="condition.c" />
     <ClCompile Include="function.c" />
     <ClCompile Include="function_Project.c" />
     <ClCompile Include="HelloWorld.c" />
     <ClCompile Include="loop.c" />
+    <ClCompile Include="pointer.c" />
+    <ClCompile Include="pointer_project.c" />
     <ClCompile Include="random.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
