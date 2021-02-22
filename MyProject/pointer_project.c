@@ -16,7 +16,7 @@ int checkFishAlive();
 //물이 다 증발하기 전에 부지런히 어항에 물을 줘서 물고기를 살려주세요
 //물고기는 시간이 지날수록 점점 커져서 나중에는 먹어요
 
-int main(void)
+int main_pointer_project(void)
 {
 	long startTime = 0; // 게임시작시간
 	long totalElapsedTime = 0; // 총경과시간
