@@ -19,7 +19,7 @@ int conv_pos_y(int y);
 void printAnimals(); // 동물 위치 출력
 void printQuestion();// 문제출력 (카드지도)
 
-int main(void)
+int main_m_array_project(void)
 {
 	srand(time(NULL));
 
